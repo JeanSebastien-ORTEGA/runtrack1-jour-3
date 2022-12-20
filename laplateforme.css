@@ -1,0 +1,121 @@
+/* police toute la page */
+html{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-haut{
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+}
+
+.menu-haut ul{
+  list-style-type: none;
+}
+
+.menu-haut ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+.menu-haut ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/*position des textes*/
+.menu-haut a{
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-bottom: 2px  solid transparent;
+  padding: 10px 0px;
+}
+/* passage pointeur onglet*/
+.menu-haut a:hover{
+  color: rgb(194, 192, 189);
+  border-bottom: 2px solid rgb(54, 117, 189);
+}
+
+.sub-spec{
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 150%;
+}
+
+.menu-haut > ul li:hover .sub-spec{
+  display: block;
+}
+
+/*-*/
+
+main{
+  background-color: #336699
+}
+
+main p{
+  color: white;
+}
+
+article{
+  padding-top:2%;
+  margin-left: 5%;
+}
+
+main > img{
+  max-width: 50%;
+  height: auto;
+  margin-left: 50%;
+  
+}
+
+/*-*/
+
+body{
+  color: #336699;
+}
+
+body h1{ 
+  text-align: center;
+}
+
+.temoignages{
+  margin-top: 5%;
+  background-color:#FFA000;
+  color: white;
+  text-align: center;
+}
+
+div img{
+  max-width: 10%;
+  height: auto;
+}
+
+/*-*/
+
+footer{
+  background-color: #313131;
+}
+
+footer img{
+  width : 30%;
+}
+
+.menu-footer-laplateforme{
+  margin-left: 45%;
+}
+
+.menu-footer-formation{
+  margin-left: 60%;
+}
+
+.Informations-footer{
+  margin-left: 80%;
+}
+
